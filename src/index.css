@@ -1,0 +1,20 @@
+/* Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+font-family: 'Segoe UI', sans-serif;
+background-color: #f5f7fb;
+color: #333;
+}
+
+/* Center Container */
+#root {
+max-width: 1200px;
+margin: auto;
+padding: 40px 20px;
+}
