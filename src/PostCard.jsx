@@ -6,6 +6,12 @@ const PostCard = ({ post }) => {
 
   return (
     <div className="card">
+      <img
+        src={`https://picsum.photos/300/200?random=${post.id}`}
+        alt="post"
+        className="card-image"
+      />
+
       <button className="close-btn" onClick={() => removePost(post.id)}>
         closebtn
       </button>
